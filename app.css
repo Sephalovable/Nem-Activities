@@ -1,0 +1,64 @@
+result-display .result-display__header {
+  margin-bottom: 20px; }
+
+result-display .result-display__list {
+  margin-left: 4%; }
+@charset "UTF-8";
+app .app__option {
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 18px;
+  padding-left: 1%;
+  margin-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 3%;
+  border: 2px double black; }
+
+.boxed {
+  background-image: url("https://orig00.deviantart.net/36c1/f/2018/117/6/d/lok_by_ninjakato_by_sephasaur-dc9zogd.png") repeat-y;
+  background-color: gray;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  display: inline-block;
+  width: 50%;
+  border: 4px double black;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 20px;
+  margin-left: 22%;
+  margin-top: 3%; }
+
+body {
+  background-color: #804040; }
+
+button {
+  border: 4px double black;
+  letter-spacing: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 35%; }
+
+result-display {
+  display: block;
+  margin-left: 2%; }
+
+blockquote {
+  background: #a0a0a0;
+  border-left: 10px;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+blockquote p {
+  display: inline; }
+
+.left {
+  float: left;
+  width: 50%; }
+
+.right {
+  margin-left: 50%; }
+
+/*# sourceMappingURL=app.css.map*/
