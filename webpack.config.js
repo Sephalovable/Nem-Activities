@@ -24,7 +24,7 @@ module.exports = {
     output: {
         publicPath: '/Nephilim-Activities/',
         path: __dirname,
-        filename: '[name]-[hash:5].js'
+        filename: '[name].js'
     },
     module: {
         rules: [

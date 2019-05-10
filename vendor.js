@@ -90,7 +90,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + chunkId + "-" + "411b0" + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + chunkId + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -50701,4 +50701,4 @@ $provide.value("$locale", {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=vendor-411b0.js.map
+//# sourceMappingURL=vendor.js.map
