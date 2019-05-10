@@ -1,8 +1,8 @@
 result-display .result-display__header {
-  margin-bottom: 20px; }
+  margin-bottom: 0px; }
 
 result-display .result-display__list {
-  margin-left: 4%; }
+  margin-left: 0%; }
 @charset "UTF-8";
 app .app__option {
   display: inline-block;
@@ -41,8 +41,8 @@ button {
   margin-left: 35%; }
 
 result-display {
-  display: block;
-  margin-left: 2%; }
+  display: inline-flex;
+  padding-left: 0px; }
 
 blockquote {
   background: #a0a0a0;
