@@ -24,7 +24,7 @@ module.exports = {
     output: {
         publicPath: '/Activities/',
         path: __dirname,
-        filename: '[name].js'
+        filename: '[name]-[hash:5].js'
     },
     module: {
         rules: [
