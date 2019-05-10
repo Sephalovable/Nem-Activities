@@ -90,7 +90,7 @@
 /******/ 		if (__webpack_require__.nc) {
 /******/ 			script.setAttribute("nonce", __webpack_require__.nc);
 /******/ 		}
-/******/ 		script.src = __webpack_require__.p + "" + chunkId + "-" + "8319f" + ".js";
+/******/ 		script.src = __webpack_require__.p + "" + chunkId + "-" + "411b0" + ".js";
 /******/ 		var timeout = setTimeout(onScriptComplete, 120000);
 /******/ 		script.onerror = script.onload = onScriptComplete;
 /******/ 		function onScriptComplete() {
@@ -143,7 +143,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/Activities/";
+/******/ 	__webpack_require__.p = "/Nephilim-Activities/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -50701,4 +50701,4 @@ $provide.value("$locale", {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=vendor-8319f.js.map
+//# sourceMappingURL=vendor-411b0.js.map
