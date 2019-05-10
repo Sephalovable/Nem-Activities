@@ -7,6 +7,8 @@ const component = {
         constructor(DatabaseService, GeneratorService) {
             this.GeneratorService = GeneratorService;
 
+            this.thumbnail = "";
+            this.thumbnail2 = "";
             this.activityListKeys = DatabaseService.activityListKeys;
             this.tackListKeys = DatabaseService.tackListKeys;
             this.blessingListKeys = DatabaseService.blessingListKeys;

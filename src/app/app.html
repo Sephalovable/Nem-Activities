@@ -3,46 +3,49 @@
         <div class="center">
             <div class="boxed">
                 <br>
+                <center>Deviation Thumbnail&nbsp;<input type="text" ng-value="$ctrl.thumbnail" ng-model="$ctrl.thumbnail"> &nbsp; 
+                    Nephilim Name and ID <input type="text" ng-value="$ctrl.thumbnail2" ng-model="$ctrl.thumbnail2"></center><br>
 
                 <section class="app__options-menu">
-                    <hr><center><b><font size="5">Selection</font></u><hr><br><br>
+                    <hr><center><b><font size="5">Selection</font></u><hr><br><br></b></center><left>
                    <option-checkbox class="app__option"
                                      data-ng-repeat="listKey in $ctrl.activityListKeys"
                                      data-list-key="{{ listKey }}"
                                      data-on-selected-changed="$ctrl.selectedChanged(key, value)">
                 </option-checkbox>
+                </left>
                 </section>
 
                 <div class="left">
                     <blockquote>
                         <section class="app__options-menu">
-                    <hr><center><b><font size="5">Blessings</font><hr></b><br>
+                    <hr><center><b><font size="5">Attributes</font><hr></b><br>
                     <option-checkbox class="app__option"
                                      data-ng-repeat="listKey in $ctrl.blessingListKeys"
                                      data-list-key="{{ listKey }}"
                                      data-on-selected-changed="$ctrl.selectedChanged(key, value)">
-                        </option-checkbox>
+                        </option-checkbox><br><br><br><br><br><br><br><br><br><br><br>
                         </blockquote>
                         </section>
 
                     <blockquote>
                         <section class="app__options-menu">
-                            <hr><center><b><font size="5">Companions</font><hr></b><br>
+                            <hr><center><b><font size="5">Familiars</font><hr></b><br>
                                 <option-checkbox class="app__option" 
                                 data-ng-repeat="listKey in $ctrl.companionListKeys" 
                                 data-list-key="{{ listKey }}" 
                                 data-on-selected-changed="$ctrl.selectedChanged(key, value)">
                     </option-checkbox>
-                    <br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br>
                     </blockquote>
                     </section>
                     </div>
 
 
-    <div class="right">
+    <div class="left">
         <blockquote>
         <section class="app__options-menu">
-            <hr><center><b><font size="5">Equipment</font><hr></b><br>
+            <hr><center><b><font size="5">Gear</font><hr></b><br>
                 <option-checkbox class="app__option" 
                 data-ng-repeat="listKey in $ctrl.tackListKeys" 
                 data-list-key="{{ listKey }}" 
@@ -57,24 +60,22 @@
     <hr>
     <center><b><font size="5">Ranks</font><hr></b><br>
 
-        <option-checkbox class="app__option" 
+       <option-checkbox class="app__option" 
         data-ng-repeat="listKey in $ctrl.rankListKeys" 
         data-list-key="{{ listKey }}" 
         data-on-selected-changed="$ctrl.selectedChanged(key, value)">
-        </option-checkbox>
+        </option-checkbox><br><br><br><br>
         </blockquote>
 </section>
 </div>
-                <br><hr>
-
-                <div class="center">
-                    <button data-ng-click="$ctrl.generateOutput()">Roll Selection</button><br><hr><br>
+                <br><br><br><br><br><br><br>
+                    <button data-ng-click="$ctrl.generateOutput()">Roll Activity</button><br><hr><br>
+                    <span ng-if="$ctrl.result">{{ $ctrl.thumbnail }} </span><br><br>
+                    <b><div ng-if="$ctrl.result">{{ $ctrl.thumbnail2 }} has returned successful!</b><br> <br>
                     <result-display class="app__generation-result-container"
                                     data-ng-if="$ctrl.result"
-                                    data-header="{{ $ctrl.result.header }}"
-                                    data-values="$ctrl.result.values"></result-display>
-<br>
-Upon completing their quest name has received the following:
+                                    data-values="$ctrl.result.values"></result-display></div>
+                                    <br>
                 </div>
             </div>
         </div>
@@ -82,4 +83,4 @@ Upon completing their quest name has received the following:
 </div>
 </div>
 <br>
-<center><p style="color:#FFFFFF" ;><b>Roller designed by <a href="https://www.deviantart.com/sephasaur" style="color: #FFFFFF">@Sephasaur</a> for <a href="https://www.deviantart.com/syndicarium"style="color: #FFFFFF">Syndicarium</a></b></p></center>
+<center><p style="color:#FFFFFF" ;><b>Roller designed by <a href="https://www.deviantart.com/sephasaur" style="color: #FFFFFF">@Sephasaur</a> for <a href="https://www.deviantart.com/nephilim-arpg"style="color: #FFFFFF">Nephilim-ARPG</a></b></p></center>
