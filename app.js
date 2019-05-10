@@ -543,7 +543,7 @@ exports.default = _module.name;
 /* 16 */
 /***/ (function(module, exports) {
 
-var path = 'C:/Users/Master/Documents/Nephilim-Activity/src/app/app.html';
+var path = 'C:/Users/Master/Documents/Nephilim-Activities/src/app/app.html';
 var html = "<div class=\"center\">\r\n    <div class=\"container\">\r\n        <div class=\"center\">\r\n            <div class=\"boxed\">\r\n                <br>\r\n                <center>Deviation Thumbnail&nbsp;<input type=\"text\" ng-value=\"$ctrl.thumbnail\" ng-model=\"$ctrl.thumbnail\"> &nbsp; \r\n                    Nephilim Name and ID <input type=\"text\" ng-value=\"$ctrl.thumbnail2\" ng-model=\"$ctrl.thumbnail2\"></center><br>\r\n\r\n                <section class=\"app__options-menu\">\r\n                    <hr><center><b><font size=\"5\">Selection</font></u><hr><br><br></b></center><left>\r\n                   <option-checkbox class=\"app__option\"\r\n                                     data-ng-repeat=\"listKey in $ctrl.activityListKeys\"\r\n                                     data-list-key=\"{{ listKey }}\"\r\n                                     data-on-selected-changed=\"$ctrl.selectedChanged(key, value)\">\r\n                </option-checkbox>\r\n                </left>\r\n                </section>\r\n\r\n                <div class=\"left\">\r\n                    <blockquote>\r\n                        <section class=\"app__options-menu\">\r\n                    <hr><center><b><font size=\"5\">Attributes</font><hr></b><br>\r\n                    <option-checkbox class=\"app__option\"\r\n                                     data-ng-repeat=\"listKey in $ctrl.blessingListKeys\"\r\n                                     data-list-key=\"{{ listKey }}\"\r\n                                     data-on-selected-changed=\"$ctrl.selectedChanged(key, value)\">\r\n                        </option-checkbox><br><br><br><br><br><br><br><br><br><br><br>\r\n                        </blockquote>\r\n                        </section>\r\n\r\n                    <blockquote>\r\n                        <section class=\"app__options-menu\">\r\n                            <hr><center><b><font size=\"5\">Familiars</font><hr></b><br>\r\n                                <option-checkbox class=\"app__option\" \r\n                                data-ng-repeat=\"listKey in $ctrl.companionListKeys\" \r\n                                data-list-key=\"{{ listKey }}\" \r\n                                data-on-selected-changed=\"$ctrl.selectedChanged(key, value)\">\r\n                    </option-checkbox>\r\n                    <br><br><br><br><br><br><br><br><br><br><br>\r\n                    </blockquote>\r\n                    </section>\r\n                    </div>\r\n\r\n\r\n    <div class=\"left\">\r\n        <blockquote>\r\n        <section class=\"app__options-menu\">\r\n            <hr><center><b><font size=\"5\">Gear</font><hr></b><br>\r\n                <option-checkbox class=\"app__option\" \r\n                data-ng-repeat=\"listKey in $ctrl.tackListKeys\" \r\n                data-list-key=\"{{ listKey }}\" \r\n                data-on-selected-changed=\"$ctrl.selectedChanged(key, value)\">\r\n        </option-checkbox>\r\n        <br><br><br><br><br>\r\n        </blockquote>\r\n        </section>\r\n\r\n    <blockquote>\r\n        <section class=\"app__options-menu\">\r\n    <hr>\r\n    <center><b><font size=\"5\">Ranks</font><hr></b><br>\r\n\r\n       <option-checkbox class=\"app__option\" \r\n        data-ng-repeat=\"listKey in $ctrl.rankListKeys\" \r\n        data-list-key=\"{{ listKey }}\" \r\n        data-on-selected-changed=\"$ctrl.selectedChanged(key, value)\">\r\n        </option-checkbox><br><br><br><br>\r\n        </blockquote>\r\n</section>\r\n</div>\r\n                <br><br><br><br><br><br><br>\r\n                    <button data-ng-click=\"$ctrl.generateOutput()\">Roll Activity</button><br><hr><br>\r\n                    <span ng-if=\"$ctrl.result\">{{ $ctrl.thumbnail }} </span><br><br>\r\n                    <b><div ng-if=\"$ctrl.result\">{{ $ctrl.thumbnail2 }} has returned successful!</b><br> <br>\r\n                    <result-display class=\"app__generation-result-container\"\r\n                                    data-ng-if=\"$ctrl.result\"\r\n                                    data-values=\"$ctrl.result.values\"></result-display></div>\r\n                                    <br>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\r\n</div>\r\n<br>\r\n<center><p style=\"color:#FFFFFF\" ;><b>Roller designed by <a href=\"https://www.deviantart.com/sephasaur\" style=\"color: #FFFFFF\">@Sephasaur</a> for <a href=\"https://www.deviantart.com/nephilim-arpg\"style=\"color: #FFFFFF\">Nephilim-ARPG</a></b></p></center>";
 window.angular.module('ng').run(['$templateCache', function(c) { c.put(path, html) }]);
 module.exports = path;
@@ -552,7 +552,7 @@ module.exports = path;
 /* 17 */
 /***/ (function(module, exports) {
 
-var path = 'C:/Users/Master/Documents/Nephilim-Activity/src/app/components/option-checkbox/option-checkbox.html';
+var path = 'C:/Users/Master/Documents/Nephilim-Activities/src/app/components/option-checkbox/option-checkbox.html';
 var html = "<label class=\"option-checkbox__label\">\r\n    {{ $ctrl.listKey }}\r\n    <input type=\"checkbox\"\r\n           class=\"option-checkbox__checkbox\"\r\n           data-ng-model=\"$ctrl.isSelected\"/>\r\n</label>";
 window.angular.module('ng').run(['$templateCache', function(c) { c.put(path, html) }]);
 module.exports = path;
@@ -561,7 +561,7 @@ module.exports = path;
 /* 18 */
 /***/ (function(module, exports) {
 
-var path = 'C:/Users/Master/Documents/Nephilim-Activity/src/app/components/result-display/result-display.html';
+var path = 'C:/Users/Master/Documents/Nephilim-Activities/src/app/components/result-display/result-display.html';
 var html = "<header class=\"result-display__header\">{{ $ctrl.header }}</header>\r\n<p></p>\r\n<span class=\"result-display__list\">{{ $ctrl.listItems() }}</span>\r\n";
 window.angular.module('ng').run(['$templateCache', function(c) { c.put(path, html) }]);
 module.exports = path;
@@ -1159,6 +1159,7 @@ module.exports = {
 		"max": 1,
 		"values": [
 			"GIVE RARE FISH",
+			"HALP",
 			"Aaaaaa"
 		]
 	},

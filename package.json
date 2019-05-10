@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://Sephalovable@github.com/Sephalovable/Activities.git"
+        "url": "git+https://Sephalovable@github.com/Sephalovable/Nephilim-Activities.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Sephalovable/Activities/issues"
+        "url": "https://github.com/Sephalovable/Nephilim-Activities/issues"
     },
-    "homepage": "https://github.com/Sephalovable/Activities#readme",
+    "homepage": "https://github.com/Sephalovable/Nephilim-Activities#readme",
     "babel": {
         "presets": [
             "es2015"
