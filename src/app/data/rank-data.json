@@ -1,5 +1,5 @@
 {
-"Rank: Expert Assassin +": {
+"Rank: Velites": {
     "min": 0,
     "max": 1,
     "values": [
@@ -270,7 +270,7 @@
         ":thumb694238468:"
     ]
 },
-"Rank: Expert Blacksmith +": {
+"Rank: Hastati": {
     "min": 0,
     "max": 3,
     "values": [
@@ -282,7 +282,7 @@
         ":thumb694238328:"
     ]
 },
-"Rank: Expert Cutpurse +": {
+"Rank: Legatus": {
     "min": 0,
     "max": 1,
     "values": [
@@ -293,7 +293,7 @@
         ":thumb778636490:"
     ]
 },
-"Rank: Expert Chef +": {
+"Rank: Consul": {
     "min": 0,
     "max": 3,
     "values": [
@@ -385,7 +385,7 @@
         ":thumb694238468:"
     ]
 },
-"Rank: Expert Bartender +": {
+"Rank: Praefect": {
     "min": 0,
     "max": 2,
     "values": [
