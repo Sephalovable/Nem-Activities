@@ -22,7 +22,7 @@ module.exports = {
         'app': path.join(__dirname, 'src/app')
     },
     output: {
-        publicPath: '/Nephilim-Activities/',
+        publicPath: '/Nem-Activities/',
         path: __dirname,
         filename: '[name].js'
     },
