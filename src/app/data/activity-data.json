@@ -3,12 +3,12 @@
     "min": 1,
     "max": 1,
     "values": [
-      "Following their expedition they fought off a bear, took a nap, and ended up fleeing for their life. When they returned home they brought back the following: <br><br>",
-      "Following their expedition they followed a stranger, got lost in the forest, and ended up getting stuck in a tree. When they returned home they brought back the following: <br><br>"
+      "Following their expedition they fought off a bear, took a nap, and ended up fleeing for their life. When they returned home they brought back the following:",
+      "Following their expedition they followed a stranger, got lost in the forest, and ended up getting stuck in a tree. When they returned home they brought back the following:"
     ]
   },
 
-  "adventuring": {
+  "expedition": {
     "min": 1,
     "max": 2,
     "values": [
@@ -27,7 +27,7 @@
     ]
   },
 
-  "hunting: argentavis": {
+  "beast hunting": {
     "min": 1,
     "max": 2,
     "values": [
@@ -36,7 +36,7 @@
    ]
 },
 
-  "hunting: aurochs": {
+  "foraging": {
     "min": 1,
     "max": 2,
     "values": [
@@ -45,7 +45,7 @@
     ]
   },
 
-    "hunting: cave bear": {
+    "caving": {
       "min": 1,
       "max": 2,
       "values": [
@@ -54,7 +54,7 @@
       ]
     },
 
-      "hunting: cave lion": {
+      "crusades": {
         "min": 1,
         "max": 2,
         "values": [
@@ -63,27 +63,27 @@
         ]
       },
 
-  "hunting: daeodon": {
-    "min": 1,
-    "max": 2,
+  "common shipment": {
+    "min": 5,
+    "max": 5,
     "values": [
       ":thumb778700898:",
       ":thumb694238704:"
     ]
   },
 
-    "hunting: megaloceros": {
-      "min": 1,
-      "max": 2,
+    "rare shipment": {
+      "min": 5,
+      "max": 5,
       "values": [
         ":thumb778700898:",
         ":thumb694238704:"
       ]
     },
 
-"attribute roll": {
-  "min": 1,
-  "max": 1,
+"legendary shipment": {
+  "min": 5,
+  "max": 5,
   "values": [
     "Insert",
     "Insert"
